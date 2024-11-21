@@ -1,0 +1,95 @@
+header, body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+
+img{
+    width: 100px;
+    border-radius: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.cv-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header .objective {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+section {
+    padding: 0px 50px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #383838;
+    border-bottom: 2px solid #383838;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li p {
+    margin: 0;
+}
+
+a {
+    color: #383838;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.download-link {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.download-link:hover {
+    background-color: #003d80;
+}
