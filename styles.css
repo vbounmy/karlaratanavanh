@@ -4,8 +4,11 @@ header, body{
 }
 
 img{
-    width: 100px;
-    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 100%;
 }
 
 body {
@@ -14,6 +17,15 @@ body {
     padding: 0;
     color: #333;
     margin-bottom: 100px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .cv-container {
