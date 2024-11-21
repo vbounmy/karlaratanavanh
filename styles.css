@@ -1,5 +1,5 @@
 header, body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     margin: 50px;
 }
 
@@ -9,19 +9,17 @@ img{
 }
 
 body {
-    font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
     color: #333;
+    margin-bottom: 100px;
 }
 
 .cv-container {
     width: 80%;
     max-width: 800px;
     margin: 20px auto;
-    background: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -48,7 +46,7 @@ header .objective {
 
 section {
     padding: 0px 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 section h2 {
